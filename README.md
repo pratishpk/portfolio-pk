@@ -20,7 +20,7 @@ This portfolio showcases my projects and skills. It was created using React.js a
 
 - **Scroll Effects:** Implements the AOS library (Animate On Scroll) to create scroll-based animations and effects, adding interactivity and engagement to the user experience.
 
-- **Contact Form:** Includes a contact form powered by EmailJS, allowing users to easily send messages directly from the website, facilitating communication and interaction.
+- **Contact Form:** Includes a contact form connected by EmailJS, allowing users to easily send messages directly from the website, facilitating communication and interaction.
 
 ## Theme Support
 
