@@ -1,0 +1,157 @@
+.about-main {
+    text-align: center;
+    height: 30vh;
+    background-color: #222;
+    padding-top: 13vh;
+    color: rgb(172, 218, 230);
+}
+
+.dark .about-main {
+    background-color: #ced8ff;
+    color: rgb(79, 78, 78);
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.text {
+    width: 100%;
+}
+
+.text p {
+    width: 100%;
+    text-align: justify;
+    margin-right: -20%;
+}
+
+.about .text p {
+    font-size: 25px;
+    color: rgb(70, 68, 68);
+}
+
+.about-img img {
+    width: 100%;
+    max-width: 300px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border: .5px solid rgb(12, 35, 58);
+    box-shadow: 0 0 50px 0px rgb(61, 171, 219);
+}
+
+.dark .about-img img{
+    box-shadow: 0 0 50px 0px rgb(61, 171, 219);
+
+}
+
+.about p {
+    font-size: 25px;
+    left: 20%;
+    width: 90%;
+}
+
+
+.dark .about p {
+    color: rgb(220, 238, 243);
+}
+
+.about-btn {
+    margin: 50px auto;
+    display: block;
+    text-align: center;
+}
+
+.about-btn-box {
+    margin-top: 20px;
+    display: inline-block;
+    align-items: center;
+    padding: 12px 28px;
+    background: rgb(60, 66, 66);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #9ccdee;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    width: 15rem;
+    text-align: center;
+    text-align: center;
+    /* Center the button itself */
+    margin-left: auto;
+}
+
+.dark .about-btn-box {
+    background: rgb(164, 236, 241);
+    color: #04619F;
+}
+
+.about-btn-box:hover {
+    background: rgb(117, 117, 117);
+    color: #8ec7ee;
+    box-shadow: 0 0 5px rgb(109, 128, 129), 0 0 40px rgb(99, 106, 106);
+}
+
+.dark .about-btn-box:hover {
+    background: rgb(117, 246, 255);
+    color: #04619F;
+    box-shadow: 0 0 5px rgb(85, 102, 103), 0 0 25px rgb(121, 226, 233);
+}
+
+@media (max-width: 800px) {
+    .about-img {
+        margin-top: 30px;
+    }
+
+    .about p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 650px) {
+    .about p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+
+
+}
+
+@media (max-width: 450px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-img img {
+        max-width: 250px;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .about p {
+        width: 85%;
+        margin-left: 8%;
+        justify-content: left;
+        text-align: left;
+    }
+
+    .about .text p{
+        font-size: 20px;
+    }
+
+    .about-btn {
+        text-align: center;
+    }
+}

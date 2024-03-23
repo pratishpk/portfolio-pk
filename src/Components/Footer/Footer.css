@@ -1,0 +1,167 @@
+.footer {
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    border-top-right-radius: 200px;
+}
+
+.fot{
+    background-color: black;
+    color: white;
+}
+
+
+.dark .footer, .dark .fot{
+    background: #ced8ff;   
+}
+.dark .fot p{
+    color: black;
+}
+.footer div {
+    width: 22%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div h6 {
+    font-size: 22px;
+    margin-bottom: 5px;
+
+}
+
+.dark .footer div {
+    color: black;
+}
+
+.links p,
+.social p,
+.links h6,
+.social h6 {
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div p {
+    font-size: 16px;
+}
+
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.social-p {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.links p{
+    transition: font-size 0.3s ease;
+}
+
+.social .social-p p {
+    font-size: 23px;
+    transition: font-size 0.3s ease; 
+}
+
+.social .social-p p:hover, .links p:hover {
+    font-size: 25px; 
+}
+
+
+
+
+.links a,
+.social a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.dark .links a,
+.dark .social a {
+    color: black;
+}
+
+
+.footer div img {
+    width: 100%;
+    max-width: 80px;
+}
+
+@media(max-width:790px) {
+    .footer div {
+        width: 30%;
+    }
+}
+
+@media(max-width:650px) {
+
+    .footer {
+        gap: 30px;
+    }
+
+    .footer div {
+        width: 45%;
+    }
+}
+
+@media(max-width:550px) {
+
+    .footer {
+        flex-direction: column;
+        padding-right: 40px;
+    }
+
+    .footer div {
+        width: 100%;
+    }
+
+    .links p,
+    .links h6 {
+        text-align: left;
+        justify-content: left;
+    }
+    .footer .note{
+        margin-top: -60px;
+    }
+
+   
+}
+
+ hr {
+    width: 50%;
+    border: 0;
+    border-bottom: 3px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    background-size: 100%;
+}
+.dark hr{
+    border-bottom: 3px solid rgb(122, 124, 127);
+
+}
+.note {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.dark .note{
+    color: rgb(218, 227, 247);
+}
